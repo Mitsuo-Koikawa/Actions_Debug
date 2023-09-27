@@ -5,15 +5,15 @@ GitHub Actionsで定期的にPythonを実行し公開されているOpenDataを�
 ```
 README.md       : このファイル
 fetch.py        : OpenDataを読み込むPython Script
-.github
-  + workflows
+.github/
+  + workflows/
     - main.yml  : Actions Workflow設定ファイル
-docs            : GitHub Pages公開ページ
+docs/           : GitHub Pages公開ページ
   - index.html  : Pythonで自動生成されるTop Page
   - xxx.xml     : 取得されたOpenData
-  + images      : 各種画像ファイル
+  + images/     : 各種画像ファイル
 ```
-
+[手順]
 1. RepositoryのClone
 1. ローカル環境でのPython動作確認
 1. 自分のRepository作成
