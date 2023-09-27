@@ -41,6 +41,7 @@ def main():
         html += '[source](' + od_link['url'] + ')\)\n\n'
         
     # GitHub Pagesで公開するページを作成
+    html += 'last update: ' + now
     with open("docs/index.md", 'w') as f:
         f.write(html)
 
