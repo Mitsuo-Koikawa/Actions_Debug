@@ -1,9 +1,9 @@
 import re, os, requests, yaml
 from datetime import datetime
 
-DATA_FOLDER = f"./docs/data"
+DATA_FOLDER = "docs/data"
 
-def fetch_data(url):
+def fetch_data(url):  
     response = requests.get(url)
     response.raise_for_status()
     return response.text
@@ -37,12 +37,8 @@ def main():
         with open(DATA_FOLDER + "/" + file_name, 'w') as f:
             f.write(obj_data)
         
-        html += '[' + od_link['name'] + '](./data/' + file_name + ') \('
+        html += '[' + od_link['name'] + '](data/' + file_name + ') \('
         html += '[source](' + od_link['url'] + ')\)\n\n'
-    
-    # GitHub Pagesで公開するページを作成
-    with open("./docs/index.md", 'w') as f:
-        f.write(html)
 
 if __name__ == '__main__':
     main()
