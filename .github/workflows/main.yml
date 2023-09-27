@@ -24,5 +24,5 @@ jobs:
         pip install requests pyyaml
 
     - name: Run script to fetch and commit XML
-      run: python .github/scripts/fetch.py
+      run: python fetch.py
 

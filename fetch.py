@@ -1,7 +1,7 @@
 import re, os, requests, yaml
 from datetime import datetime
 
-DATA_FOLDER = "../../docs/data"
+DATA_FOLDER = "docs/data"
 
 def fetch_data(url):  
     response = requests.get(url)
@@ -9,17 +9,17 @@ def fetch_data(url):
     return response.text
 
 def main():
-    with open('../../opendata.yml', 'r') as yml:
+    with open('opendata.yml', 'r') as yml:
         config = yaml.safe_load(yml)
         od_links = config['link']
 
     html = "# Open Data 整形済み最新データ\n"
 
     # dataフォルダの中を全部消す
-    for item in os.listdir(DATA_FOLDER):
-        item_path = os.path.join(DATA_FOLDER, item)
-        if os.path.isfile(item_path):
-                os.remove(item_path)
+    # for item in os.listdir(DATA_FOLDER):
+    #    item_path = os.path.join(DATA_FOLDER, item)
+    #    if os.path.isfile(item_path):
+    #            os.remove(item_path)
 
     for od_link in od_links:
         obj_data = fetch_data(od_link['url'])
@@ -41,7 +41,7 @@ def main():
         html += '[source](' + od_link['url'] + ')\)\n\n'
         
     # GitHub Pagesで公開するページを作成
-    with open("../../docs/index.md", 'w') as f:
+    with open("docs/index.md", 'w') as f:
         f.write(html)
 
 if __name__ == '__main__':
