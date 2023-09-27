@@ -13,7 +13,7 @@ def main():
     
     # 現在の時間をもとにファイル名を作成
     now = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-    file_name = f"../../xmls/{now}.xml"
+    file_name = f"../../docs/{now}.xml"
     
     # ファイルにXMLを保存
     with open(file_name, 'w') as f:
