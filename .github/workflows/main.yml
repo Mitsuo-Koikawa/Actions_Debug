@@ -1,8 +1,8 @@
 name: Fetch and Commit XML - main
 
-on:
-  schedule:
-    - cron: '*/60 * * * *' # Every hour
+# on:
+#  schedule:
+#    - cron: '*/60 * * * *' # Every hour
 
 jobs:
   fetch:
