@@ -39,6 +39,10 @@ def main():
         
         html += '[' + od_link['name'] + '](data/' + file_name + ') \('
         html += '[source](' + od_link['url'] + ')\)\n\n'
+        
+    # GitHub Pagesで公開するページを作成
+    with open("docs/index.md", 'w') as f:
+        f.write(html)
 
 if __name__ == '__main__':
     main()
