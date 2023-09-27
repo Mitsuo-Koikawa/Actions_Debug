@@ -2,7 +2,7 @@ name: Fetch and Commit XML - main
 
 on:
   schedule:
-    - cron: '*/60 * * * *' # Every hour
+    - cron: '*/5 * * * *' # Every hour
 
 jobs:
   fetch:
@@ -26,3 +26,9 @@ jobs:
     - name: Run script to fetch and commit XML
       run: python fetch.py
 
+    - name: deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.ACTIONS_TOKEN }}
+        publish_dir: docs
+        publish_branch: www_public
