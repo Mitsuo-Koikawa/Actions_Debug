@@ -38,5 +38,8 @@ jobs:
         TZ: "Asia/Tokyo"
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./
+        publish_dir: ./docs
         publish_branch: gh-pages
+        enable_jekyll: false
+        allow_empty_commit: true
+        keep_files: true
