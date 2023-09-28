@@ -1,8 +1,8 @@
 name: Fetch and Commit
 
 on:
-  schedule:
-    - cron: '60 * * * *' # Every 60min
+  schedule:              # scheduleはdefault branchのみで動作
+    - cron: '30 2 * * *' # 毎日深夜 2:30 に実行
 
 jobs:
   fetch:

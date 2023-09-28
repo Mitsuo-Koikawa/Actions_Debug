@@ -2,7 +2,8 @@ import re, os, requests, yaml
 from datetime import datetime
 
 GHPAGE_FOLDER = 'docs'
-DATA_FOLDER = 'data'
+DATA_FOLDER = 'source'
+OUTPUT_FOLDER = 'fixed'
 
 def fetch_data(url):  
     response = requests.get(url)
