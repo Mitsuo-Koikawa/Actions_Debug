@@ -10,6 +10,8 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
 
     steps:
     - name: Checkout
@@ -36,5 +38,5 @@ jobs:
         TZ: "Asia/Tokyo"
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: /
+        publish_dir: ./
         publish_branch: gh-pages
