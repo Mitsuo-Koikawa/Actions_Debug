@@ -12,12 +12,12 @@ README.md       : このファイル
 fetch.py        : OpenDataを読み込むPython Script
 opendata.yml    : 読み込むデータのリンク集
 .github/
-  + workflows/
-    - main.yml  : Actions Workflow設定ファイル
+  workflows/
+    main.yml    : Actions Workflow設定ファイル
 docs/           : GitHub Pages公開ページ
-  - index.html  : Pythonで自動生成されるTop Page
-  + data/       : 取得されたOpenDataの保存場所
-  + images/     : 各種画像ファイル
+  index.html    : Pythonで自動生成されるTop Page
+  data/         : 取得されたOpenDataの保存場所
+  images/       : 各種画像ファイル
 ```
 [手順]
 1. RepositoryのClone
