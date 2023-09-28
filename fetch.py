@@ -37,7 +37,7 @@ def main():
         with open(DATA_FOLDER + "/" + file_name, 'w') as f:
             f.write(obj_data)
         
-        html += '[' + od_link['name'] + '](data/' + file_name + ') \('
+        html += '[' + od_link['title'] + '](data/' + file_name + ') \('
         html += '[source](' + od_link['url'] + ')\)\n\n'
         
     # GitHub Pagesで公開するページを作成
