@@ -33,7 +33,9 @@ Cloneしたいフォルダを作成し、そのフォルダの中で以下を実
 
 ## ローカル環境でのPython動作確認
 opendata.yml ファイルを編集して、アクセスをしたいOpenDataの情報を登録して、以下を実行してください。
+
 > python3 fetch.py
+
 docs/dataフォルダーの中に取得したデータが登録され、そのデータへのリンクを含んだindex.mdが自動作成されます。以前に取得したデータは残りません。
 
 ## 新しいRepository作成
@@ -53,18 +55,17 @@ GitHub Pagesを表示するためのBranchを作成します。静的HTML出力�
 https://github.com/peaceiris/actions-gh-pages
 
 > 出力先Branch: gh-pages
-> ソースフォルダ: ./docs
-> Jeykll処理: 有効 (Markdown処理に使用)
+ソースフォルダ: ./docs
+Jeykll処理: 有効 (Markdown処理に使用)
 
-> 
 ## Actionsの設定
 Repositoryの[Actions]タブを選んで[New workflow]を選んでください。設定ファイルとして以下のファイルを登録してください。
 > .github/workflows/main.yml
 
 上記 YAMLファイルの中の数値を変更する事で実行する周期を指定できます。
 > on:
->  schedule:
->    - cron: '60 * * * *' # Every hour
+  schedule:
+    - cron: '60 * * * *' # Every hour
 
 Actionsは実行に時間がかかるので、あまり小さい数字にしないでください。
 
