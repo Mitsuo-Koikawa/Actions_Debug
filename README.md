@@ -34,7 +34,7 @@ Cloneしたいフォルダを作成し、そのフォルダの中で以下を実
 ## ローカル環境でのPython動作確認
 opendata.yml ファイルを編集して、アクセスをしたいOpenDataの情報を登録して、以下を実行してください。
 
-> python3 fetch.py
+> python3 fetch.py  
 
 docs/dataフォルダーの中に取得したデータが登録され、そのデータへのリンクを含んだindex.mdが自動作成されます。以前に取得したデータは残りません。
 
@@ -51,31 +51,31 @@ Repositoryの管理画面の一番下の方にある [Secrets and variables] を
 作成したSecretはWorkflowのYAMLで `${{ secrets.ACTIONS_TOKEN }}` として読み出す事が出来ます。
 
 ## Pagesの設定
-GitHub Pagesを表示するためのBranchを作成します。静的HTML出力において少しの設定ミスでRepositoryが上書きされてしまうので、出力用のBranchを用意する事が安全です。本Workflowでは以下のExtensionを使用してPagesの出力を行っています。
+GitHub Pagesを表示するためのBranchを作成します。静的HTML出力において少しの設定ミスでRepositoryが上書きされてしまうので、出力用のBranchを用意する事が安全です。本Workflowでは以下のExtensionを使用してPagesの出力を行っています。  
 https://github.com/peaceiris/actions-gh-pages
 
-> 出力先Branch: gh-pages
-ソースフォルダ: ./docs
-Jeykll処理: 有効 (Markdown処理に使用)
+> 出力先Branch: gh-pages  
+ソースフォルダ: ./docs  
+Jeykll処理: 有効 (Markdown処理に使用)  
+
 
 ## Actionsの設定
-Repositoryの[Actions]タブを選んで[New workflow]を選んでください。設定ファイルとして以下のファイルを登録してください。
+Repositoryの`Actions`タブを選んで`New workflow`を選んでください。設定ファイルとして以下のファイルを登録してください。
 > .github/workflows/main.yml
 
 上記 YAMLファイルの中の数値を変更する事で実行する周期を指定できます。
-> on:
-  schedule:
-    - cron: '60 * * * *' # Every hour
+```
+on:  
+  schedule:  
+    - cron: '60 * * * *' # Every hour  
+```
 
 Actionsは実行に時間がかかるので、あまり小さい数字にしないでください。
 
-main.ymlのWorkflowが実行されると以下の処理が自動で発行されます。すべて完了するまでPagesは一時的に表示できなくなります。
+main.ymlのWorkflowが実行されると以下の処理が自動で発行されます。すべて完了するまでPagesは一時的に表示できなくなります。  
 1. main.yml
-  1. ubuntu/latest上でのPython環境構築
-  1. Pythonによるデータの取得
-  1. ExtensionによるGit Hub Pagesへの出力
+    1. ubuntu/latest上でのPython環境構築
+    1. Pythonによるデータの取得
+    1. ExtensionによるGit Hub Pagesへの出力
 1. GitHub自動処理
-  1. Pagesの自動再構築
-
-
-
+    1. Pagesの自動再構築
