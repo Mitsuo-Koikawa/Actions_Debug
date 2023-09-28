@@ -24,10 +24,14 @@ jobs:
         pip install requests pyyaml
 
     - name: Run script to fetch and commit XML
+      env:
+        TZ: "Asia/Tokyo"
       run: python fetch.py
 
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
+      env:
+        TZ: "Asia/Tokyo"
       with:
         github_token: ${{ secrets.ACTIONS_TOKEN }}
         publish_dir: /
