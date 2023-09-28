@@ -2,7 +2,7 @@ name: Fetch and Commit
 
 on:
   schedule:
-    - cron: '10 * * * *' # Every 10min
+    - cron: '60 * * * *' # Every 60min
 
 jobs:
   fetch:
@@ -27,10 +27,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests pyyaml
 
-    - name: Run script to fetch and commit XML
+    - name: Run script to fetch and commit
       env:
         TZ: "Asia/Tokyo"
-      run: python fetch.py
+      run: python main.py
 
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
