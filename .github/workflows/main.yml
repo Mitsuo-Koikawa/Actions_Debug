@@ -2,12 +2,14 @@ name: Fetch and Commit XML - main
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Every hour
+    - cron: '10 * * * *' # Every 10min
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout
@@ -33,6 +35,6 @@ jobs:
       env:
         TZ: "Asia/Tokyo"
       with:
-        github_token: ${{ secrets.ACTIONS_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: /
         publish_branch: gh-pages
