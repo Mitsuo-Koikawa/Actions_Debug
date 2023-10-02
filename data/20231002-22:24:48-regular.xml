@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" lang="ja">
   <title>é«é »åº¦ï¼å®æï¼</title>
   <subtitle>JMAXML publishing feed</subtitle>
-  <updated>2023-10-02T21:30:26+09:00</updated>
-  <id>https://www.data.jma.go.jp/developer/xml/feed/regular.xml#short_1696249826</id>
+  <updated>2023-10-02T22:20:37+09:00</updated>
+  <id>https://www.data.jma.go.jp/developer/xml/feed/regular.xml#short_1696252837</id>
   <link rel="related" href="https://www.jma.go.jp/"/>
   <link rel="self" href="https://www.data.jma.go.jp/developer/xml/feed/regular.xml"/>
   <link rel="hub" href="http://alert-hub.appspot.com/"/>
@@ -11,6 +11,66 @@
 <a href="https://www.jma.go.jp/jma/kishou/info/coment.html">å©ç¨è¦ç´</a>,
 <a href="https://www.jma.go.jp/jma/en/copyright.html">Terms of Use</a>
 ]]></rights>
+  <entry>
+    <title>å¤§é¨å±éºåº¦éç¥</title>
+    <id>https://www.data.jma.go.jp/developer/xml/data/20231002132021_0_VPRN50_010000.xml</id>
+    <updated>2023-10-02T13:19:47Z</updated>
+    <author>
+      <name>æ°è±¡åº</name>
+    </author>
+    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002132021_0_VPRN50_010000.xml"/>
+    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
+  </entry>
+  <entry>
+    <title>è­¦å ±ç´ã®å¯è½æ§ï¼ææ¥ã¾ã§ï¼</title>
+    <id>https://www.data.jma.go.jp/developer/xml/data/20231002131501_0_VPFD60_420000.xml</id>
+    <updated>2023-10-02T13:15:00Z</updated>
+    <author>
+      <name>é·å´å°æ¹æ°è±¡å°</name>
+    </author>
+    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002131501_0_VPFD60_420000.xml"/>
+    <content type="text">ãé·å´çè­¦å ±ç´ã®å¯è½æ§ï¼ææ¥ã¾ã§ï¼ã</content>
+  </entry>
+  <entry>
+    <title>å¤§é¨å±éºåº¦éç¥</title>
+    <id>https://www.data.jma.go.jp/developer/xml/data/20231002131021_0_VPRN50_010000.xml</id>
+    <updated>2023-10-02T13:09:50Z</updated>
+    <author>
+      <name>æ°è±¡åº</name>
+    </author>
+    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002131021_0_VPRN50_010000.xml"/>
+    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
+  </entry>
+  <entry>
+    <title>å¤§é¨å±éºåº¦éç¥</title>
+    <id>https://www.data.jma.go.jp/developer/xml/data/20231002130021_0_VPRN50_010000.xml</id>
+    <updated>2023-10-02T12:59:44Z</updated>
+    <author>
+      <name>æ°è±¡åº</name>
+    </author>
+    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002130021_0_VPRN50_010000.xml"/>
+    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
+  </entry>
+  <entry>
+    <title>å¤§é¨å±éºåº¦éç¥</title>
+    <id>https://www.data.jma.go.jp/developer/xml/data/20231002125040_0_VPRN50_010000.xml</id>
+    <updated>2023-10-02T12:50:13Z</updated>
+    <author>
+      <name>æ°è±¡åº</name>
+    </author>
+    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002125040_0_VPRN50_010000.xml"/>
+    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
+  </entry>
+  <entry>
+    <title>å¤§é¨å±éºåº¦éç¥</title>
+    <id>https://www.data.jma.go.jp/developer/xml/data/20231002124030_0_VPRN50_010000.xml</id>
+    <updated>2023-10-02T12:39:51Z</updated>
+    <author>
+      <name>æ°è±¡åº</name>
+    </author>
+    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002124030_0_VPRN50_010000.xml"/>
+    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
+  </entry>
   <entry>
     <title>å¤§é¨å±éºåº¦éç¥</title>
     <id>https://www.data.jma.go.jp/developer/xml/data/20231002123012_0_VPRN50_010000.xml</id>
@@ -3610,85 +3670,5 @@
     </author>
     <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002033021_0_VPRN50_010000.xml"/>
     <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
-  </entry>
-  <entry>
-    <title>å¤§é¨å±éºåº¦éç¥</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231002032030_0_VPRN50_010000.xml</id>
-    <updated>2023-10-02T03:19:58Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002032030_0_VPRN50_010000.xml"/>
-    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
-  </entry>
-  <entry>
-    <title>åºçå¤©æ°æ¦æ³</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231002031130_0_VPFG50_040000.xml</id>
-    <updated>2023-10-02T03:11:30Z</updated>
-    <author>
-      <name>ä»å°ç®¡åºæ°è±¡å°</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002031130_0_VPFG50_040000.xml"/>
-    <content type="text">ãå¤©æ°æ¦æ³ã</content>
-  </entry>
-  <entry>
-    <title>å¤§é¨å±éºåº¦éç¥</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231002031021_0_VPRN50_010000.xml</id>
-    <updated>2023-10-02T03:09:46Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002031021_0_VPRN50_010000.xml"/>
-    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
-  </entry>
-  <entry>
-    <title>åºçå¤©æ°äºå ±ï¼ï¼²ï¼ï¼</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231002030911_0_VPFD51_040000.xml</id>
-    <updated>2023-10-02T03:09:10Z</updated>
-    <author>
-      <name>ä»å°ç®¡åºæ°è±¡å°</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002030911_0_VPFD51_040000.xml"/>
-    <content type="text">ãå®®åçåºçå¤©æ°äºå ±ã</content>
-  </entry>
-  <entry>
-    <title>å¤§é¨å±éºåº¦éç¥</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231002030031_0_VPRN50_010000.xml</id>
-    <updated>2023-10-02T02:59:45Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002030031_0_VPRN50_010000.xml"/>
-    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
-  </entry>
-  <entry>
-    <title>å¤§é¨å±éºåº¦éç¥</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231002025021_0_VPRN50_010000.xml</id>
-    <updated>2023-10-02T02:49:44Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002025021_0_VPRN50_010000.xml"/>
-    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
-  </entry>
-  <entry>
-    <title>å¤§é¨å±éºåº¦éç¥</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231002024021_0_VPRN50_010000.xml</id>
-    <updated>2023-10-02T02:39:46Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002024021_0_VPRN50_010000.xml"/>
-    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
-  </entry>
-  <entry>
-    <title>ã¢ã¸ã¢å¤ªå¹³æ´å°ä¸å®æ³å³</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231002023800_0_VZSA60_010000.xml</id>
-    <updated>2023-10-02T02:37:29Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231002023800_0_VZSA60_010000.xml"/>
-    <content type="text">ãã¢ã¸ã¢å¤ªå¹³æ´å°ä¸å®æ³å³ã</content>
   </entry>
 </feed>
