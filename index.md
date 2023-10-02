@@ -1,10 +1,10 @@
 # Open Data 整形済み最新データ
-[テスト](data/20231002-23:22:56-regular.xml) \([source](https://www.data.jma.go.jp/developer/xml/feed/regular.xml)\)
+[テスト](data/20231003-00:21:27-regular.xml) \([source](https://www.data.jma.go.jp/developer/xml/feed/regular.xml)\)
 
-[東京オープンデータカタログ](data/20231002-23:22:59-TokyoOpenDataCatalog) \([source](https://catalog.data.metro.tokyo.lg.jp/api/3/action/package_search?q=*:*&rows=999999&start=0)\)
+[東京オープンデータカタログ](data/20231003-00:21:30-TokyoOpenDataCatalog) \([source](https://catalog.data.metro.tokyo.lg.jp/api/3/action/package_search?q=*:*&rows=999999&start=0)\)
 
-[東京都認証保育所一覧](data/20231002-23:23:02-ninshouichiran050801.xlsx) \([source](https://www.fukushi.metro.tokyo.lg.jp/kodomo/hoiku/ninsyo/ichiran.files/ninshouichiran050801.xlsx)\)
+[東京都認証保育所一覧](data/20231003-00:21:33-ninshouichiran050801.xlsx) \([source](https://www.fukushi.metro.tokyo.lg.jp/kodomo/hoiku/ninsyo/ichiran.files/ninshouichiran050801.xlsx)\)
 
-[社会福祉施設等一覧-保育所](data/20231002-23:23:04-202210-2-1-hoikusyo.csv) \([source](https://www.opendata.metro.tokyo.lg.jp/fukushihoken/202210-2-1-hoikusyo.csv)\)
+[社会福祉施設等一覧-保育所](data/20231003-00:21:35-202210-2-1-hoikusyo.csv) \([source](https://www.opendata.metro.tokyo.lg.jp/fukushihoken/202210-2-1-hoikusyo.csv)\)
 
-last update: 20231002-23:23:04
+last update: 20231003-00:21:35
