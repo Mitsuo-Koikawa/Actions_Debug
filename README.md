@@ -64,6 +64,11 @@ Repositoryの`Actions`タブを選んで`New workflow`を選んでください�
 > .github/workflows/main.yml
 
 上記 YAMLファイルの中の数値を変更する事で実行する周期を指定できます。
+
+ActionsはDefaultではほぼログを出さないため、Debugのためには
+以下のページにある設定をしてログ出力をさせてください。  
+https://docs.github.com/ja/actions/monitoring-and-troubleshooting-workflows/enabling-debug-logging
+
 ```
 on:  
   schedule:  

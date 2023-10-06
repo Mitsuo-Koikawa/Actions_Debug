@@ -5,10 +5,13 @@ GHPAGE_FOLDER = 'docs'
 DATA_FOLDER = 'source'
 OUTPUT_FOLDER = 'fixed'
 
-def fetch_data(url):  
-    response = requests.get(url)
-    response.raise_for_status()
-    return response.text
+def fetch_data(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.text
+    except requests.exceptions.RequestException as e:
+        return e
 
 def create_filename(name, url):
     # 現在の時間をもとにファイル名を作成
@@ -30,7 +33,11 @@ def main():
 
     for od_link in od_links:
         obj_data = fetch_data(od_link['url'])
-            
+        # 200 OK 以外ならErrorをMarkdownに出力して処理継続
+        if type(obj_data) is not str:
+            html += '// ' + od_link['title'] + ': Error - ' + str(obj_data) + '  \n'
+            continue
+   
         # ファイルに取得したDataを保存
         file_name = create_filename(od_link['name'], od_link['url'])
         with open(GHPAGE_FOLDER + '/' + DATA_FOLDER + '/' + file_name, 'w') as f:
