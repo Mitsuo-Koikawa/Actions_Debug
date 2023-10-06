@@ -2,7 +2,7 @@ name: Fetch and Commit
 
 on:
   schedule:
-    - cron: '10 * * * *' # Every 10min
+    - cron: '30 2 * * *' # Everyday 2:30am
 
 jobs:
   fetch:
