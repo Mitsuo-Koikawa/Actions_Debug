@@ -30,7 +30,7 @@ jobs:
     - name: Run script to fetch and commit
       env:
         TZ: "Asia/Tokyo"
-      run: python main.py
+      run: python pipeline.py
 
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
