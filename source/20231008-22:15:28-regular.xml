@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" lang="ja">
   <title>é«é »åº¦ï¼å®æï¼</title>
   <subtitle>JMAXML publishing feed</subtitle>
-  <updated>2023-10-08T21:21:38+09:00</updated>
-  <id>https://www.data.jma.go.jp/developer/xml/feed/regular.xml#short_1696767698</id>
+  <updated>2023-10-08T22:11:03+09:00</updated>
+  <id>https://www.data.jma.go.jp/developer/xml/feed/regular.xml#short_1696770663</id>
   <link rel="related" href="https://www.jma.go.jp/"/>
   <link rel="self" href="https://www.data.jma.go.jp/developer/xml/feed/regular.xml"/>
   <link rel="hub" href="http://alert-hub.appspot.com/"/>
@@ -11,6 +11,56 @@
 <a href="https://www.jma.go.jp/jma/kishou/info/coment.html">å©ç¨è¦ç´</a>,
 <a href="https://www.jma.go.jp/jma/en/copyright.html">Terms of Use</a>
 ]]></rights>
+  <entry>
+    <title>å¤§é¨å±éºåº¦éç¥</title>
+    <id>https://www.data.jma.go.jp/developer/xml/data/20231008131051_0_VPRN50_010000.xml</id>
+    <updated>2023-10-08T13:10:14Z</updated>
+    <author>
+      <name>æ°è±¡åº</name>
+    </author>
+    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008131051_0_VPRN50_010000.xml"/>
+    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
+  </entry>
+  <entry>
+    <title>å¤§é¨å±éºåº¦éç¥</title>
+    <id>https://www.data.jma.go.jp/developer/xml/data/20231008130050_0_VPRN50_010000.xml</id>
+    <updated>2023-10-08T13:00:20Z</updated>
+    <author>
+      <name>æ°è±¡åº</name>
+    </author>
+    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008130050_0_VPRN50_010000.xml"/>
+    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
+  </entry>
+  <entry>
+    <title>å¤§é¨å±éºåº¦éç¥</title>
+    <id>https://www.data.jma.go.jp/developer/xml/data/20231008125110_0_VPRN50_010000.xml</id>
+    <updated>2023-10-08T12:50:44Z</updated>
+    <author>
+      <name>æ°è±¡åº</name>
+    </author>
+    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008125110_0_VPRN50_010000.xml"/>
+    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
+  </entry>
+  <entry>
+    <title>å¤§é¨å±éºåº¦éç¥</title>
+    <id>https://www.data.jma.go.jp/developer/xml/data/20231008124040_0_VPRN50_010000.xml</id>
+    <updated>2023-10-08T12:40:03Z</updated>
+    <author>
+      <name>æ°è±¡åº</name>
+    </author>
+    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008124040_0_VPRN50_010000.xml"/>
+    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
+  </entry>
+  <entry>
+    <title>å¤§é¨å±éºåº¦éç¥</title>
+    <id>https://www.data.jma.go.jp/developer/xml/data/20231008123050_0_VPRN50_010000.xml</id>
+    <updated>2023-10-08T12:30:18Z</updated>
+    <author>
+      <name>æ°è±¡åº</name>
+    </author>
+    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008123050_0_VPRN50_010000.xml"/>
+    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
+  </entry>
   <entry>
     <title>å¤§é¨å±éºåº¦éç¥</title>
     <id>https://www.data.jma.go.jp/developer/xml/data/20231008122120_0_VPRN50_010000.xml</id>
@@ -3609,66 +3659,6 @@
       <name>æ°è±¡åº</name>
     </author>
     <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008032140_0_VPRN50_010000.xml"/>
-    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
-  </entry>
-  <entry>
-    <title>å¤§é¨å±éºåº¦éç¥</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231008031040_0_VPRN50_010000.xml</id>
-    <updated>2023-10-08T03:10:14Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008031040_0_VPRN50_010000.xml"/>
-    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
-  </entry>
-  <entry>
-    <title>å¤§é¨å±éºåº¦éç¥</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231008030110_0_VPRN50_010000.xml</id>
-    <updated>2023-10-08T03:00:36Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008030110_0_VPRN50_010000.xml"/>
-    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
-  </entry>
-  <entry>
-    <title>å¤§é¨å±éºåº¦éç¥</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231008025120_0_VPRN50_010000.xml</id>
-    <updated>2023-10-08T02:50:50Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008025120_0_VPRN50_010000.xml"/>
-    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
-  </entry>
-  <entry>
-    <title>å¤§é¨å±éºåº¦éç¥</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231008024020_0_VPRN50_010000.xml</id>
-    <updated>2023-10-08T02:39:51Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008024020_0_VPRN50_010000.xml"/>
-    <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
-  </entry>
-  <entry>
-    <title>ã¢ã¸ã¢å¤ªå¹³æ´å°ä¸å®æ³å³</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231008023830_0_VZSA60_010000.xml</id>
-    <updated>2023-10-08T02:37:43Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008023830_0_VZSA60_010000.xml"/>
-    <content type="text">ãã¢ã¸ã¢å¤ªå¹³æ´å°ä¸å®æ³å³ã</content>
-  </entry>
-  <entry>
-    <title>å¤§é¨å±éºåº¦éç¥</title>
-    <id>https://www.data.jma.go.jp/developer/xml/data/20231008023130_0_VPRN50_010000.xml</id>
-    <updated>2023-10-08T02:31:01Z</updated>
-    <author>
-      <name>æ°è±¡åº</name>
-    </author>
-    <link type="application/xml" href="https://www.data.jma.go.jp/developer/xml/data/20231008023130_0_VPRN50_010000.xml"/>
     <content type="text">ãå¤§é¨å±éºåº¦éç¥ã</content>
   </entry>
 </feed>
