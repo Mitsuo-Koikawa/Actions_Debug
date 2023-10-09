@@ -37,11 +37,14 @@ jobs:
       run: python datanorm.py ./docs/source
 
     - name: Upload to the Google Drive
-      uses: willo32/google-drive-upload-action@v1
+      uses: adityak74/google-drive-upload-git-action@main
       with:
-        target: "./docs/fixed/place_holder"
         credentials: ${{ secrets.GGDRIVE_CREDENTIAL }}
-        parent_folder_id: ${{ secrets.GGDRIVE_FOLDERID }}
+        filename: "./docs/fixed/*"
+        folderId: ${{ secrets.GGDRIVE_FOLDERID }}
+        overwrite: "true" # optional boolean
+        mirrorDirectoryStructure: "true"
+        
     
     - name: Publish to the GitHub Pags
       uses: peaceiris/actions-gh-pages@v3
