@@ -1,4 +1,4 @@
-name: Fetch and Commit
+name: Pipeline
 
 on:
   workflow_dispatch:
