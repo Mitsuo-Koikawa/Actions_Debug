@@ -48,7 +48,17 @@ Repositoryの管理画面の一番下の方にある [Secrets and variables] を
 [New repository secret] というボタンを押して、使用するアクセストークンを以下の名前で登録してください。
 > ACTIONS_TOKEN
 
-作成したSecretはWorkflowのYAMLで `${{ secrets.ACTIONS_TOKEN }}` として読み出す事が出来ます。
+作成したSecretはWorkflowのYAMLで `${{ secrets.ACTIONS_TOKEN }}` として読み出す事が出来ます。  
+
+### Google Driveの設定
+変換スクリプトが整形データをGoogle Driveに書き込むためのトークンは
+環境変数 `GGLDRIVE_TOKEN` に設定されています。
+Pythonでは `os.environment` で参照してください。
+
+トークンを変更するためには、GitHub RepositoryのSettingの
+中のSecretsで、ActionsのSecretsの `GGLDRIVE_TOKEN`
+を編集してください。WorkflowのYAMLの中でSecretsが
+仮想環境の環境変数にコピーされています。
 
 ## Pagesの設定
 GitHub Pagesを表示するためのBranchを作成します。静的HTML出力において少しの設定ミスでRepositoryが上書きされてしまうので、出力用のBranchを用意する事が安全です。本Workflowでは以下のExtensionを使用してPagesの出力を行っています。  
