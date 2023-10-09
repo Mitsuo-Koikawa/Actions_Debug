@@ -2,7 +2,9 @@ name: Fetch and Commit
 
 on:
   schedule:              # scheduleは branchのみで動作
-    - cron: '30 2 * * *' # 毎日深夜 2:30 に実行
+    - cron: '*/10 * * * *' # 毎日深夜 2:30 に実行
+env:
+  TZ: "Asia/Tokyo"
 
 jobs:
   fetch:
@@ -25,17 +27,24 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests pyyaml
+        pip install -r requirements.txt
 
-    - name: Run script to fetch and commit
-      env:
-        TZ: "Asia/Tokyo"
-      run: python pipeline.py
+    - name: Download the Open Data
+      run: python download.py
 
-    - name: deploy
+    - name: Convert the downloaded data
+      run: python datanorm.py
+
+    - name: Upload to the Google Drive
+      uses: adityak74/google-drive-upload-git-action@main
+      with:
+        credentials: ${{ secrets.GGDRIVE_CREDENTIAL }}
+        filename: "./docs/fixed/*"
+        folderId: ${{ secrets.GGDRIVE_FOLDERID }}
+        overwrite: "true" # optional boolean
+
+    - name: Publish to the GitHub Pags
       uses: peaceiris/actions-gh-pages@v3
-      env:
-        TZ: "Asia/Tokyo"
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./docs
