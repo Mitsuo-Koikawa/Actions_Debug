@@ -44,7 +44,7 @@ def trans_column_name(df, mapping_rules):
     return df
 
 def main(directory_path):
-    output_file = "combined.csv"
+    output_file = "./docs/fixed/combined.csv"
     mapping_file = "mapping_rules.json"
 
     """指定されたディレクトリ内のCSVファイルを読み込み、結合して新しいCSVファイルに出力する"""

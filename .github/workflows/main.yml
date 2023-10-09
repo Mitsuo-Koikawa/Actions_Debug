@@ -34,7 +34,7 @@ jobs:
       run: python download.py
 
     - name: Convert the downloaded data
-      run: python datanorm.py
+      run: python datanorm.py ./docs/source
 
     - name: Upload to the Google Drive
       uses: adityak74/google-drive-upload-git-action@main
