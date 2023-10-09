@@ -40,16 +40,16 @@ jobs:
       uses: adityak74/google-drive-upload-git-action@main
       with:
         credentials: ${{ secrets.GGDRIVE_CREDENTIAL }}
-        filename: docs
+        filename: ./docs/fixed/combined.csv
         folderId: ${{ secrets.GGDRIVE_FOLDERID }}
         overwrite: "true" # optional boolean
-        mirrorDirectoryStructure: "true"
+        # mirrorDirectoryStructure: "true"
 
     - name: Publish to the GitHub Pags
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs
+        publish_dir: 
         publish_branch: gh-pages
         enable_jekyll: true
         allow_empty_commit: true
