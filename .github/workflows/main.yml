@@ -40,9 +40,10 @@ jobs:
       uses: adityak74/google-drive-upload-git-action@main
       with:
         credentials: ${{ secrets.GGDRIVE_CREDENTIAL }}
-        filename: "./docs/fixed/*"
+        filename: ./docs/fixed/*
         folderId: ${{ secrets.GGDRIVE_FOLDERID }}
         overwrite: "true" # optional boolean
+        mirrorDirectoryStructure: "true"
 
     - name: Publish to the GitHub Pags
       uses: peaceiris/actions-gh-pages@v3
