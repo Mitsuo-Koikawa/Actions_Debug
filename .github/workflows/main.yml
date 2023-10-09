@@ -40,7 +40,7 @@ jobs:
       uses: adityak74/google-drive-upload-git-action@main
       with:
         credentials: ${{ secrets.GGDRIVE_CREDENTIAL }}
-        filename: ./docs
+        filename: docs
         folderId: ${{ secrets.GGDRIVE_FOLDERID }}
         overwrite: "true" # optional boolean
         mirrorDirectoryStructure: "true"
