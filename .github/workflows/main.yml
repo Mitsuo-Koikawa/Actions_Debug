@@ -2,8 +2,8 @@ name: Pipeline
 
 on:
   workflow_dispatch:
-  schedule:              # scheduleは main branchのみで動作
-    - cron: '30 2 * * *' # 毎日深夜 2:30 に実行
+  # schedule:              # scheduleは main branchのみで動作
+  #  - cron: '30 2 * * *' # 毎日深夜 2:30 に実行
 env:
   TZ: "Asia/Tokyo"
 
